@@ -24,5 +24,13 @@ function loadChartLib($chartLib="chartjs") {
       loadVendor("highCharts");
     break;
   }
+  
+  $jsFile=dirname(__FILE__)."/plugins/{$chartLib}.js";
+  if(file_exists($jsFile)) {
+    //echo getWebPath($jsFile);
+    ?>
+    <script type="text/javascript" src="<?=$jsFile?>"></script>
+    <?php
+  }
 }
 ?>
