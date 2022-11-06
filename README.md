@@ -1,16 +1,18 @@
 # Charts
 
-This plugin helps load various chart vendors and required functionality.
-
-Also this plugin is to contain data transformation code for data from Logiks Service Data Format to the required library format
+This plugin helps load various chart vendors and required functionality, including data transformation code for data from Logiks Service Data Format to the required library format.
 
 ### Supported libraries
-+ ChartJS
-+ JQuery Sparkline
+- [X] ChartJS
+- [X] JQuery Sparkline
+- [X] JQPlot
+- [X] Flot
+- [X] Google Charts
+- [X] Highchart
+- [X] ApexCharts
+- [X] eCharts (Apache)
+- [ ] C3/D3
 
-### In Plan
-+ JQPlot
-+ Flot
-+ Google Charts
-+ Highchart
-+ C3/D3
+
+Thank you
+Logiks Team
