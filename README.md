@@ -15,4 +15,3 @@ This plugin helps load various chart vendors and required functionality, includi
 
 
 Thank you
-Logiks Team
